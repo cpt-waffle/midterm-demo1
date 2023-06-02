@@ -28,9 +28,20 @@ app.use(express.static('public'));
 
 // Separated Routes for each Resource
 // Note: Feel free to replace the example routes below with your own
-const userApiRoutes = require('./routes/users-api');
+// -----------------
+console.log("test test test");
 const widgetApiRoutes = require('./routes/widgets-api');
+console.log("test test test");
 const usersRoutes = require('./routes/users');
+console.log("test test test");
+// -----------------
+// -----------------// -----------------
+console.log("test test test");
+const userApiRoutes = require('./routes/users-api');
+console.log("test test test");
+// -----------------// -----------------
+// -----------------// -----------------// -----------------
+// -----------------
 
 // Mount all resource routes
 // Note: Feel free to replace the example routes below with your own
