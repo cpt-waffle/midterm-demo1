@@ -48,6 +48,19 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
+app.get('/urls', (req,res) => {
+  return res.render('urls_index');
+})
+
+app.get('/urls/new', (req,res) => {
+  return res.render('urls_new');
+})
+
+app.post('/urls', (req, res) => {
+  return res.send("should save");
+})
+
+
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
 });
